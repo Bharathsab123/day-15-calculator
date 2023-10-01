@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color:#76FF7A;
+    outline: none;
+
+}
+
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color:white ;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, 0.16);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+
+}
+input{
+    grid-column: span 4;
+    height: 50px;
+    width: 280px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: end;
+    margin-bottom: 30px;
+
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    box-shadow: -5px -5px 12px white,
+                 5px  5px 12px rgba(0, 0, 0, 0.16);
+
+
+}
+
+#eql{
+    background-color: green;
+    color: white;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+    font-size: 20px;
+}
